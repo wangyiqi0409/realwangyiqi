@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc; /* 设置背景色 */
+    color: #262626; /* 设置文字颜色 */
+    font-size: 18px; /* 设置字体大小 */
+}
+
+header {
+    background-color: #fcfcfc; /* 设置背景色 */
+    color: #262626;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 10px auto 10px; /* 调整顶部边距 */
+    padding: 0 0px;
+    background-color: rgba(0, 0, 0, 0); /* 统一内容框背景颜色 */
+    border-radius: 10px; /* 添加圆角 */
+    padding-top: 0px; /* 调整内容框与顶部的距离 */
+    padding-bottom: 0px; /* 调整内容框与底部的距离 */
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #262626; /* 设置文字颜色 */
+    font-size: 16px; /* 设置标题字体大小 */
+}
+
+.intro, .interests, .contact {
+    margin-bottom: 20px; /* 调整各板块之间的距离 */
+}
+
+footer {
+    background-color: #fcfcfc; /* 设置背景色 */
+    color: #262626;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 50%; /* 控制图片在底部的宽度 */
+}
+
+.small-image {
+    width: 35%; /* 控制图片大小 */
+}
+
+}
+
+
+.intro, .interests, .contact {
+    background-color: rgba(0, 0, 0, 0); /* 添加透明黑色背景 */
+    padding: 20px;
+    border-radius: 10px;
+}
